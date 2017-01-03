@@ -9,7 +9,7 @@ RUN apt-get update
 RUN apt-get -y install wget ufraw enfuse jhead gimp build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev unzip dcraw ufraw-batch hugin-tools
 
 #RUN apt-get -y install openjdk-7-jre
-RUN apt-get -y build-dep libcv2.4
+#RUN apt-get -y build-dep libcv2.4
 RUN apt-get -y build-dep pfstools
 RUN apt-get -y install libgsl0-dev
 RUN apt-get -y remove liboctave-dev
