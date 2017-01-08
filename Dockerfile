@@ -10,7 +10,7 @@ RUN apt-get -y install wget ufraw enfuse jhead gimp build-essential cmake git li
 
 #RUN apt-get -y install openjdk-7-jre
 #RUN apt-get -y build-dep libcv2.4
-RUN apt-get -y build-dep pfstools
+#RUN apt-get -y build-dep pfstools
 RUN apt-get -y install libgsl0-dev
 RUN apt-get -y remove liboctave-dev
 RUN apt-get clean
